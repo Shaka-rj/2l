@@ -1,0 +1,170 @@
+body {
+        background-color: #5EFFDA;
+}
+.asosiy {
+    font-family: roboto;
+    font-size: 24;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+.asosiy .b1 {
+	font-size: 30px;
+	margin: 20px 5px 5px 10px;
+}
+.v1 {
+    width: 98%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px #2969ED solid;
+	border-radius: 20px;
+    font-family: roboto;
+}
+.v1 input {
+    font-family: roboto;
+    font-size: 24px;
+    height: 48px;
+}
+.v1 #url{
+    width: 70%;
+    margin-left: 4%;
+    border: 2px #2969ED solid;
+    border-radius: 8px 0 0 8px;
+    color: #2969ED;
+    padding-left: 1.5%;
+    padding-bottom: 3px;
+}
+.v1 #qoyish {
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: #FFFFFF;
+    color: #2969ED;
+    border: 2px #2969ED solid;
+    border-radius: 0 8px 8px 0;
+}
+.v1 #qoyish:hover {
+    background-color: #2969ED;
+    color: #FFFFFF;
+}
+.v1 img {
+    margin-left: 4%;
+    margin-top: 3px;
+}
+.v1 #rand {
+    margin-left: 4%;
+    width: 50%;
+    padding-left: 1.5%;
+    padding-bottom: 3px;
+    border: 2px #2969ED solid;
+    border-radius: 8px 8px 8px 8px;
+}
+.v1 #yaratish{
+    width: 20%;
+    margin-left: 21%;
+    background-color: #2969ED;
+    color: #FFFFFF;
+    border: 2px #2969ED solid;
+    border-radius: 8px 8px 8px 8px;
+    transition: 0.4s;
+}
+.v1 #yaratish:hover {
+    background-color: #FFFFFF;
+    color: #2969ED;
+}
+.v1 p {
+    margin: 0% 4%;
+}
+.natija {
+    padding: 0 4% 4% 4%;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px #2969ED solid;
+	border-radius: 20px;
+    font-family: roboto;
+}
+.url {
+    background-color: white;
+    border: 2px #2969ED solid;
+    border-radius: 8px;
+    padding: 1%;
+    color: #2969ED;
+}
+.natija input {
+    font-size: 30px;
+    font-family: roboto;
+    width: 77%;
+    border: 2px #2969ED solid;
+    border-radius: 8px 0 0 8px;
+    color: #2969ED;
+    padding-left: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.natija button{
+    font-size: 30px;
+    font-family: roboto;
+    width: 20%;
+    margin-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: #FFFFFF;
+    color: #2969ED;
+    border: 2px #2969ED solid;
+    border-radius: 0 8px 8px 0;
+}
+.natija button:hover {
+    background-color: #2969ED;
+    color: #FFFFFF;
+}
+#yana {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .asosiy {
+        font-size: 18;
+    }
+    .asosiy .b1 {
+        font-size: 22px;
+        margin: 10px 5px 5px 10px;
+    }
+    .v1 input {
+        font-size: 18px;
+        height: 34px;
+    }
+    .v1 #url{
+        width: 62%;
+        border: 1px #2969ED solid;
+        margin-left: 1%;
+    }
+    .v1 #qoyish {
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1%;
+        border: 1px #2969ED solid;
+    }
+    .v1 #rand {
+        margin-left: 1%;
+        border: 1px #2969ED solid;
+    }
+    .v1 #yaratish{
+        border: 1px #2969ED solid;
+        margin-left: 5%;
+        width: 30%;
+    }
+
+    .natija input {
+        font-size: 18px;
+        width: 64%;
+        border: 1px #2969ED solid;
+        padding-left: 1%;
+    }
+    .natija button{
+        font-size: 18px;
+        width: 30%;
+        border: 1px #2969ED solid;
+    }    
+}
