@@ -110,15 +110,14 @@ if(count($_POST)>0){
 			<div class="natija">
                 <script>
                     function myFunction() {
-                      var copyText = document.getElementById("qisqa");
-                      copyText.select();
-                      copyText.setSelectionRange(0, 99999);
-                      navigator.clipboard.writeText(copyText.value);
-                      alert("Nusxalandi: " + copyText.value);
+                        var copyText = document.getElementById("qisqa_url");
+                        window.getSelection().selectAllChildren(document.getElementById("qisqa_url"));
+                        document.execCommand("Copy");
+                        alert("Nusxalandi: " + copyText.innerHTML);
                     }
                 </script>
                     <p>Sizning qisqartirilgan url manzil:</p>
-                    <input type="text" value="<?="https://2l.uz/a/".$short_link?>" id="qisqa">
+                    <p id="qisqa_url"><?="https://2l.uz/a/".$short_link?></p>
                     <button onclick="myFunction()">Nusxa</button>
                 <div class="uzun_url">
                     <p>Sizning url manzilingiz:</p>
